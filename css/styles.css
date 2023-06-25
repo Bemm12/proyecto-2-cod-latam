@@ -64,6 +64,7 @@ section {
 /* Para quitar los puntos a los items de listas */
 ul {
   list-style: none;
+  text-align: center;
 }
 /* Para que los enlaces hereden el color de texto y no tengan subrayado */
 a {
