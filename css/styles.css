@@ -60,11 +60,16 @@ section {
   justify-content: center;
   align-items: center;
   padding-top: 120px;
+  margin: 20px;  
 }
+
+
 /* Para quitar los puntos a los items de listas */
 ul {
   list-style: none;
-  text-align: center;
+  text-align: justify;
+  font-size: 18px;
+  margin: 20px;
 }
 /* Para que los enlaces hereden el color de texto y no tengan subrayado */
 a {
@@ -84,6 +89,8 @@ p {
   text-align: justify;
   line-height: 1.2;
   margin: 20px;
+  
+  
 }
 .button {
   font-size: 20px;
@@ -91,7 +98,11 @@ p {
   color: #fbfbfb;
   border-radius: 50px;
   padding: 10px 10px;
-}
+  }
+
+  .about{
+    text-align: center;
+  } 
 .contact {
   background-color: rgba(175, 89, 158, 0.3);
   margin: 20px;
@@ -137,6 +148,21 @@ main {
 *    un trabajo manual, hacer una artesanía, tocar un instrumento musical... la práctica es todo!
 */
 
-/*header {
-  padding: 40px, 20px;
-}*/
+@media screen and (min-width: 1024px) {
+
+  *#inicio {  
+  flex-direction: row;  
+  }
+  
+  .about{
+    text-align: left;
+  } 
+   
+  
+  
+  }
+  
+
+  
+
+  
