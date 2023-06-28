@@ -50,6 +50,7 @@ header {
   font-size: 20px;
   font-weight:bold;
 }
+
 li.menu-items {
   padding: 16px;
 }
@@ -58,7 +59,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
   padding-top: 120px;
   margin: 20px;  
 }
@@ -67,7 +68,7 @@ section {
 /* Para quitar los puntos a los items de listas */
 ul {
   list-style: none;
-  text-align: justify;
+  text-align: center;
   font-size: 18px;
   margin: 20px;
 }
@@ -86,7 +87,7 @@ h2 {
 }
 p {
   font-size: 18px;
-  text-align: justify;
+  text-align: center;
   line-height: 1.2;
   margin: 20px;
   
@@ -108,12 +109,15 @@ p {
   margin: 20px;
   border-radius: 5%;  
 }
-.icono {
+#iconos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
   width: 50px;
   max-width: 100px;
   max-height: 100px;
   margin: 20px;
-}
+  }
 footer {
   display: flex;
   justify-content: center;
@@ -153,16 +157,43 @@ main {
   *#inicio {  
   flex-direction: row;  
   }
-  
   .about{
     text-align: left;
-  } 
-   
-  
-  
+    width: 50%;
+  }    
+  h1 {
+    font-size: 48px;
+    text-align:left;
+  }
+  h2{
+    font-size: 32px; 
   }
   
+  p {
+    text-align: left;
+  }
+  ul{
+    text-align: left;
+  }
+  #iconos {
+    margin: 32px; 
+    gap: 150px;       
+}
+.contact{
+  width: 50%;
+  text-align: center;
 
-  
+}
+}
 
-  
+li.menu-items:hover,
+/*li.menu-item a.active,*/
+.icono-mail:hover,
+.icono-github:hover,
+.icono-linkedin:hover,
+a.button:hover{
+    background-color: #dfa2d7;
+    border-radius: 10px;
+    transition:background-color, 0,3s;
+
+}
