@@ -51,7 +51,7 @@ header {
   font-weight:bold;
 }
 
-li.menu-items {
+li.menu-item {
   padding: 16px;
 }
 section {
@@ -186,8 +186,8 @@ main {
 }
 }
 
-li.menu-items:hover,
-/*li.menu-item a.active,*/
+li.menu-item:hover,
+li.menu-item a.active,
 .icono-mail:hover,
 .icono-github:hover,
 .icono-linkedin:hover,
