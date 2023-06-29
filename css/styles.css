@@ -182,18 +182,34 @@ main {
 .contact{
   width: 50%;
   text-align: center;
-
+  background-color: rgba(175, 76, 109, 0.479);
 }
+
+body{
+  background-color: #e7dede;
+  color: #8a0e0e;
+}
+
+
+.button {
+  background-color: #a12d50;
+  color: #fbfbfb;
+ }
+ footer {  
+  background-color: #a12d50;  
+  }
+ 
+  .icono-mail:hover,
+  .icono-github:hover,
+  .icono-linkedin:hover{
+    background-color: rgba(175, 76, 109, 0.479);    
+  }
 }
 
 li.menu-item:hover,
 li.menu-item a.active,
-.icono-mail:hover,
-.icono-github:hover,
-.icono-linkedin:hover,
 a.button:hover{
     background-color: #dfa2d7;
     border-radius: 10px;
     transition:background-color, 0,3s;
-
 }
