@@ -50,7 +50,6 @@ header {
   font-size: 20px;
   font-weight:bold;
 }
-
 li.menu-item {
   padding: 16px;
 }
@@ -63,8 +62,6 @@ section {
   padding-top: 120px;
   margin: 20px;  
 }
-
-
 /* Para quitar los puntos a los items de listas */
 ul {
   list-style: none;
@@ -85,13 +82,11 @@ h2 {
   font-size: 28px;
   text-align: center;
 }
-p {
+p,h3 {
   font-size: 18px;
   text-align: center;
   line-height: 1.2;
-  margin: 20px;
-  
-  
+  margin: 20px;  
 }
 .button {
   font-size: 20px;
@@ -100,7 +95,6 @@ p {
   border-radius: 50px;
   padding: 10px 10px;
   }
-
   .about{
     text-align: center;
   } 
@@ -117,6 +111,11 @@ p {
   max-width: 100px;
   max-height: 100px;
   margin: 20px;
+  }
+  .icono-mail:hover,
+  .icono-github:hover,
+  .icono-linkedin:hover{
+    background-color: #af599e;   
   }
 footer {
   display: flex;
@@ -153,7 +152,6 @@ main {
 */
 
 @media screen and (min-width: 1024px) {
-
   *#inicio {  
   flex-direction: row;  
   }
@@ -168,7 +166,12 @@ main {
   h2{
     font-size: 32px; 
   }
-  
+  h3{
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.2;
+  margin: 20px;
+  }    
   p {
     text-align: left;
   }
@@ -184,21 +187,17 @@ main {
   text-align: center;
   background-color: rgba(175, 76, 109, 0.479);
 }
-
 body{
   background-color: #e7dede;
   color: #8a0e0e;
 }
-
-
 .button {
   background-color: #a12d50;
   color: #fbfbfb;
  }
  footer {  
   background-color: #a12d50;  
-  }
- 
+  } 
   .icono-mail:hover,
   .icono-github:hover,
   .icono-linkedin:hover{
@@ -213,3 +212,4 @@ a.button:hover{
     border-radius: 10px;
     transition:background-color, 0,3s;
 }
+
